@@ -20,21 +20,32 @@ Exemplo de início:
 
 ---
 
-# 2. Regras de Negócio (mínimo: 5)
-Liste e descreva **cada RN** de forma clara.
+# 2. Regras de Negócio
 
-**RN01 —**  
-**RN02 —**  
-**RN03 —**  
-**RN04 —**  
-**RN05 —**  
+**RN01 — Controle de estoque automático**  
+Toda venda, devolução, transferência, perda ou compra deve atualizar automaticamente o estoque da unidade.
 
-(Adicione mais se quiser.)
+**RN02 — Venda condicionada ao estoque disponível**  
+Produtos só podem ser vendidos caso exista quantidade suficiente no estoque da unidade.
+
+**RN03 — Venda de medicamentos controlados**  
+Medicamentos que exigem receita médica devem ser validados por um farmacêutico antes da conclusão da venda.
+
+**RN04 — Geração automática de contas a receber**  
+Vendas realizadas a prazo devem gerar automaticamente um registro em contas a receber com data de vencimento.
+
+**RN05 — Geração automática de contas a pagar**  
+Toda compra realizada com fornecedores deve gerar automaticamente um registro em contas a pagar.
+
+**RN06 — Controle de estoque mínimo**
+O sistema deve alertar gerentes quando a quantidade de um produto estiver abaixo do nível mínimo configurado.
+
+**RN07 — Restrição por perfil de usuário**
+Cada tipo de usuário poderá acessar apenas as funcionalidades permitidas ao seu perfil.
 
 ---
 
-# 3. Requisitos Funcionais (mínimo: 8)
-Liste os requisitos funcionais do seu MVP.
+# 3. Requisitos Funcionais
 
 **RF01 —**  
 **RF02 —**  
@@ -45,7 +56,6 @@ Liste os requisitos funcionais do seu MVP.
 **RF07 —**  
 **RF08 —**  
 
-(Adicione mais se quiser.)
 
 ---
 
