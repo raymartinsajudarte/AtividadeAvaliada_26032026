@@ -10,15 +10,16 @@ Data: 26/03/2026
 # 1. Definição do MVP
 O MVP deste sistema foi definido com foco no processo de venda em uma unidade da farmácia, permitindo registrar vendas de produtos, identificar clientes e manter o controle básico de estoque.
 
-- Dentro do MVP estão incluídas as seguintes funcionalidades:
+Dentro do MVP estão incluídas as seguintes funcionalidades:
 
-consulta de produtos por nome, código de barras ou fabricante;
-cadastro rápido de clientes;
-registro de vendas de produtos;
-verificação automática de disponibilidade em estoque;
-atualização automática do estoque após a venda;
-emissão de comprovante de venda;
-registro de vendas a prazo com geração automática de contas a receber.
+- consulta de produtos por nome, código de barras ou fabricante.
+- cadastro rápido de clientes.
+- registro de vendas de produtos.
+- verificação automática de disponibilidade em estoque.
+- atualização automática do estoque após a venda.
+- emissão de comprovante de venda.
+- registro de vendas a prazo com geração automática de contas a receber.
+Essas funcionalidades foram escolhidas porque representam o fluxo principal de operação de uma farmácia, ou seja, o atendimento ao cliente no balcão e o registro das vendas realizadas.
 
 - O que está **fora** do MVP  
 - Por que você fez essas escolhas  
