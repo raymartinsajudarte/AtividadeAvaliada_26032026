@@ -1,9 +1,9 @@
 # Avaliação — Engenharia de Software
 **Sistema Integrado de Gestão de Farmácia — MVP Definido pelo Estudante**
 
-Aluno: *Preencha aqui*  
-RA: *Preencha aqui*  
-Data: *Preencha aqui*  
+Aluno: Ray Martins Ajudarte Eleoterio  
+RA: 24001232  
+Data: 26/03/2026  
 
 ---
 
