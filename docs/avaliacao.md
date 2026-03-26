@@ -8,10 +8,18 @@ Data: 26/03/2026
 ---
 
 # 1. Definição do MVP
-Descreva aqui **qual parte do sistema** foi incluída no seu MVP.  
-Explique claramente:
+O MVP deste sistema foi definido com foco no processo de venda em uma unidade da farmácia, permitindo registrar vendas de produtos, identificar clientes e manter o controle básico de estoque.
 
-- O que está **dentro** do MVP  
+- Dentro do MVP estão incluídas as seguintes funcionalidades:
+
+consulta de produtos por nome, código de barras ou fabricante;
+cadastro rápido de clientes;
+registro de vendas de produtos;
+verificação automática de disponibilidade em estoque;
+atualização automática do estoque após a venda;
+emissão de comprovante de venda;
+registro de vendas a prazo com geração automática de contas a receber.
+
 - O que está **fora** do MVP  
 - Por que você fez essas escolhas  
 
