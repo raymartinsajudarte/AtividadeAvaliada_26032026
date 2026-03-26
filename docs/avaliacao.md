@@ -20,7 +20,7 @@ Exemplo de início:
 
 ---
 
-# 2. Regras de Negócio
+# 2. Regras de Negócio:
 
 **RN01 — Controle de estoque automático**  
 Toda venda, devolução, transferência, perda ou compra deve atualizar automaticamente o estoque da unidade.
@@ -45,7 +45,7 @@ Cada tipo de usuário poderá acessar apenas as funcionalidades permitidas ao se
 
 ---
 
-# 3. Requisitos Funcionais
+# 3. Requisitos Funcionais:
 
 **RF01 — Cadastrar clientes**  
 O sistema deve permitir o cadastro de novos clientes.
@@ -79,19 +79,26 @@ O sistema deve permitir a geração de relatórios de vendas, estoque e financei
 
 ---
 
-# 🛡 4. Requisitos Não Funcionais (mínimo: 4)
-Liste os RNFs do sistema conforme seu MVP.
+# 4. Requisitos Não Funcionais:
 
-**RNF01 —**  
-**RNF02 —**  
-**RNF03 —**  
-**RNF04 —**  
+**RNF01 — Segurança e controle de acesso**  
+O sistema deve possuir autenticação de usuários com controle de permissões baseado em perfil.
 
-(Adicione mais se quiser.)
+**RNF02 — Desempenho**  
+Consultas de produtos e registro de vendas devem ocorrer em tempo inferior a 2 segundos.
+
+**RNF03 — Disponibilidade**  
+O sistema deve estar disponível para uso durante todo o horário de funcionamento das unidades.
+
+**RNF04 — Integridade dos dados**  
+Todas as transações de venda, compra e estoque devem garantir consistência dos dados.
+
+**RNF05 — Usabilidade**  
+A interface deve ser simples e intuitiva para facilitar o uso pelos atendentes.
 
 ---
 
-# 5. Casos de Uso (mínimo: 10)
+# 5. Casos de Uso:
 ### Inserir **diagrama de casos de uso geral**, demonstrando claramente:
 - os 10 casos
 - relação entre eles e atores
