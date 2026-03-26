@@ -19,6 +19,7 @@ Dentro do MVP estão incluídas as seguintes funcionalidades:
 - atualização automática do estoque após a venda.
 - emissão de comprovante de venda.
 - registro de vendas a prazo com geração automática de contas a receber.
+
 Essas funcionalidades foram escolhidas porque representam o fluxo principal de operação de uma farmácia, ou seja, o atendimento ao cliente no balcão e o registro das vendas realizadas.
 
 - O que está **fora** do MVP  
