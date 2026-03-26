@@ -22,11 +22,18 @@ Dentro do MVP estão incluídas as seguintes funcionalidades:
 
 Essas funcionalidades foram escolhidas porque representam o fluxo principal de operação de uma farmácia, ou seja, o atendimento ao cliente no balcão e o registro das vendas realizadas.
 
-- O que está **fora** do MVP  
-- Por que você fez essas escolhas  
+Ficam fora do MVP, sendo previstos para versões futuras do sistema:
+
+- gerenciamento completo de compras com fornecedores.
+- gestão detalhada de contas a pagar.
+- geração avançada de relatórios gerenciais.
+- transferências de estoque entre unidades.
+- administração completa de usuários e permissões.
+
+Essas funcionalidades não foram incluídas inicialmente porque, embora importantes para a gestão da rede de farmácias, não são essenciais para que o sistema comece a operar e registrar vendas, que é o processo mais crítico para o funcionamento da farmácia.
 
 Exemplo de início:  
-> “Meu MVP cobre o processo de venda desde a identificação/cadastro do cliente até a emissão do comprovante, incluindo tratamento de estoque insuficiente.”
+O MVP permite que o sistema de gestão comece a ser utilizado rapidamente nas unidades da farmácia, focando inicialmente no processo mais crítico do negócio e permitindo futuras expansões para outros módulos do sistema.
 
 ---
 
