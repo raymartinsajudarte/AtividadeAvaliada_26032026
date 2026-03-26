@@ -47,15 +47,35 @@ Cada tipo de usuário poderá acessar apenas as funcionalidades permitidas ao se
 
 # 3. Requisitos Funcionais
 
-**RF01 —**  
-**RF02 —**  
-**RF03 —**  
-**RF04 —**  
-**RF05 —**  
-**RF06 —**  
-**RF07 —**  
-**RF08 —**  
+**RF01 — Cadastrar clientes**  
+O sistema deve permitir o cadastro de novos clientes.
 
+**RF02 — Consultar produtos**  
+O sistema deve permitir buscar produtos por nome, código de barras ou fabricante.
+
+**RF03 — Registrar vendas**  
+O sistema deve permitir registrar vendas de produtos para clientes.
+
+**RF04 — Registrar vendas a prazo**  
+O sistema deve permitir registrar vendas a prazo vinculadas ao cliente.
+
+**RF05 — Emitir comprovante de venda**  
+O sistema deve gerar um comprovante ao final da venda.
+
+**RF06 — Cadastrar e atualizar produtos**  
+Gerentes devem poder cadastrar novos produtos e atualizar suas informações.
+
+**RF07 — Registrar compras de fornecedores**  
+O sistema deve registrar compras feitas junto aos fornecedores.
+
+**RF08 — Gerenciar contas a pagar**  
+O sistema deve permitir registrar e acompanhar contas a pagar.
+
+**RF09 — Gerenciar contas a receber**  
+O sistema deve permitir registrar e acompanhar contas a receber.
+
+**RF10 — Gerar relatórios gerenciais**  
+O sistema deve permitir a geração de relatórios de vendas, estoque e financeiro.
 
 ---
 
