@@ -297,3 +297,7 @@ O sistema solicita correção das informações.
 
 **Extend:** 
 - Realizar Venda
+
+
+
+## UC06 
