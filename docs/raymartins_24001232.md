@@ -300,4 +300,159 @@ O sistema solicita correção das informações.
 
 
 
-## UC06 
+## UC06 — Registrar Venda a Prazo
+### Ator Principal: 
+Atendente
+  
+### Descrição: 
+Permite registrar uma venda que será paga posteriormente.
+
+### Pré-condições:  
+- Cliente identificado
+
+### Pós-condições:  
+- Conta a receber gerada
+
+### Fluxo Principal
+1) Atendente seleciona pagamento a prazo.
+2) Sistema solicita data de vencimento.
+3) Atendente informa a data.
+4) Sistema registra a conta a receber.
+
+### Fluxos Alternativos / Exceções
+- **FA01 — Cliente sem cadastro válido**
+O sistema solicita cadastro do cliente.
+
+### Relacionamentos
+**Include:** 
+- Registrar Conta a Receber
+
+**Extend:** 
+- Realizar Venda
+
+
+
+## UC07 — Registrar Conta a Receber
+### Ator Principal: 
+Sistema/Financeiro
+  
+### Descrição: 
+Registra valores a receber originados de vendas a prazo.
+
+### Pré-condições:  
+- Venda a prazo registrada
+
+### Pós-condições:  
+- Conta registrada no sistema
+
+### Fluxo Principal
+1) Sistema recebe dados da venda a prazo.
+2) Sistema registra descrição e valor.
+3) Sistema registra data de vencimento.
+4) Sistema define status como "Aberta".
+
+### Fluxos Alternativos / Exceções
+- **FA01 — Dados incompletos**
+O sistema solicita correção das informações.
+
+### Relacionamentos
+**Include:** 
+—
+
+**Extend:** 
+—
+
+
+
+## UC08 — Cadastrar Produto
+### Ator Principal: 
+Gerente
+  
+### Descrição: 
+Permite registrar novos produtos no sistema.
+
+### Pré-condições:  
+- Usuário autenticado como gerente
+
+### Pós-condições:  
+- Produto cadastrado no sistema
+
+### Fluxo Principal
+1) Gerente acessa cadastro de produtos.
+2) Gerente informa descrição, preço e fabricante.
+3) Sistema valida os dados.
+4) Sistema salva o produto.
+
+### Fluxos Alternativos / Exceções
+- **FA01 — Produto já existente**
+O sistema informa que o produto já está cadastrado.
+
+### Relacionamentos
+**Include:** 
+—
+
+**Extend:** 
+—
+
+
+
+## UC09 — Atualizar Estoque
+### Ator Principal: 
+Sistema
+  
+### Descrição: 
+Atualiza automaticamente o estoque após uma venda.
+
+### Pré-condições:  
+- Venda registrada
+
+### Pós-condições:  
+- Quantidade do produto atualizada
+
+### Fluxo Principal
+1) Sistema recebe os dados da venda.
+2) Sistema calcula nova quantidade de estoque.
+3) Sistema atualiza o estoque da unidade.
+
+### Fluxos Alternativos / Exceções
+- **FA01 — Erro de atualização**
+O sistema registra erro e notifica o administrador.
+
+### Relacionamentos
+**Include:** 
+— 
+
+**Extend:** 
+—
+
+
+
+## UC10 — Gerar Relatórios
+### Ator Principal: 
+Gerente / Financeiro
+  
+### Descrição: 
+Permite gerar relatórios gerenciais do sistema.
+
+### Pré-condições:  
+- Usuário autenticado
+
+### Pós-condições:  
+- Relatório exibido ou exportado
+
+### Fluxo Principal
+1) Usuário seleciona o tipo de relatório.
+2) Sistema coleta os dados necessários.
+3) Sistema gera o relatório.
+4) Sistema apresenta o resultado.
+
+### Fluxos Alternativos / Exceções
+- **FA01 — Dados indisponíveis**
+O sistema informa que não há dados para o relatório.
+
+### Relacionamentos
+**Include:** 
+— 
+
+**Extend:** 
+—
