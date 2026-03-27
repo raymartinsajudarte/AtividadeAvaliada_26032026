@@ -163,12 +163,12 @@ O sistema informa que não há quantidade suficiente e impede a venda.
 
 
 ### Relacionamentos
- **Include:** 
+**Include:** 
 - Consultar Produto
 - Verificar Estoque
 - Emitir Comprovante
 
-  **Extend:** 
+**Extend:** 
 - Cadastrar Cliente
 - Registrar Venda a Prazo
 
@@ -198,8 +198,102 @@ Permite pesquisar produtos disponíveis no sistema.
 O sistema informa que o produto não está cadastrado.
 
 ### Relacionamentos
- **Include:** 
+**Include:** 
 —
 
- **Extend:** 
+**Extend:** 
 —
+
+
+
+## UC03 — Verificar Estoque
+### Ator Principal: 
+Sistema
+  
+### Descrição: 
+Verificar se há quantidade suficiente no estoque. 
+
+### Pré-condições:  
+- Produto selecionado
+
+### Pós-condições:  
+- Quantidade disponível exibida
+
+### Fluxo Principal
+1) Sistema recebe produto selecionado.
+2) Sistema consulta o estoque da unidade.
+3) Sistema retorna a quantidade disponível.
+
+### Fluxos Alternativos / Exceções
+- **FA01 — Produto sem estoque**
+O sistema informa indisponibilidade do produto.
+
+### Relacionamentos
+**Include:** 
+—
+
+**Extend:** 
+—
+
+
+
+## UC04 — Emitir Comprovante
+### Ator Principal: 
+Sistema
+  
+### Descrição: 
+Gera o comprovante da venda realizada.
+
+### Pré-condições:  
+- Venda registrada no sistema
+
+### Pós-condições:  
+- Comprovante exibido ou impresso
+
+### Fluxo Principal
+1) Sistema recebe os dados da venda.
+2) Sistema gera o comprovante.
+3) Sistema exibe ou imprime o comprovante.
+
+### Fluxos Alternativos / Exceções
+- **FA01 — Falha na impressão**
+O sistema permite reemitir o comprovante.
+
+### Relacionamentos
+**Include:** 
+—
+
+**Extend:** 
+—
+
+
+
+## UC05 — Cadastrar Cliente
+### Ator Principal: 
+Atendente
+  
+### Descrição: 
+Permite registrar um novo cliente no sistema.
+
+### Pré-condições:  
+- Cliente não cadastrado
+
+### Pós-condições:  
+- Cliente registrado no sistema
+
+### Fluxo Principal
+1) Atendente seleciona cadastrar cliente.
+2) Atendente informa os dados do cliente.
+3) Sistema valida os dados.
+4) Sistema salva o cadastro.
+
+### Fluxos Alternativos / Exceções
+- **FA01 — Dados inválidos**
+O sistema solicita correção das informações.
+
+### Relacionamentos
+**Include:** 
+—
+
+**Extend:** 
+- Realizar Venda
