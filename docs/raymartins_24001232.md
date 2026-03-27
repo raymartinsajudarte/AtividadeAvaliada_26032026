@@ -115,20 +115,11 @@ A interface deve ser simples e intuitiva para facilitar o uso pelos atendentes.
 ---
 
 # 5. Casos de Uso:
-flowchart TD
-A[Iniciar venda] --> B[Identificar cliente]
-B --> C[Consultar produto]
-C --> D[Verificar estoque]
-D -->|Disponível| E[Informar quantidade]
-E --> F[Calcular valor total]
-F --> G[Confirmar venda]
-G --> H[Registrar venda]
-H --> I[Atualizar estoque]
-I --> J[Emitir comprovante]
-J --> K[Fim]
-
-D -->|Indisponível| L[Informar estoque insuficiente]
-L --> K
+### Inserir **diagrama de casos de uso geral**, demonstrando claramente:
+- os 10 casos
+- relação entre eles e atores
+- pelo menos 3 includes
+- pelo menos 3 extends
 
 ---
 
