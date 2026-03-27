@@ -163,12 +163,12 @@ O sistema informa que não há quantidade suficiente e impede a venda.
 
 
 ### Relacionamentos
-- **Include:** 
+ **Include:** 
 - Consultar Produto
 - Verificar Estoque
 - Emitir Comprovante
 
-- **Extend:** 
+  **Extend:** 
 - Cadastrar Cliente
 - Registrar Venda a Prazo
 
@@ -198,8 +198,8 @@ Permite pesquisar produtos disponíveis no sistema.
 O sistema informa que o produto não está cadastrado.
 
 ### Relacionamentos
-- **Include:** 
+ **Include:** 
 —
 
-- **Extend:** 
+ **Extend:** 
 —
